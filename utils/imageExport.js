@@ -1,5 +1,21 @@
 import searc from '../public/icon/Component_32.png';
 import filt from '../public/icon/Component_39.png';
+import fav from '../public/icon/favorite.png';
+import hert from '../public/icon/heart.png';
+import hm from '../public/icon/home.png';
+import lg from '../public/icon/logout.png';
+import msg from '../public/icon/message.png';
+import nt from '../public/icon/notification.png';
+import pf from '../public/icon/profile.png';
+import set from '../public/icon/setting.png';
 
 export const search = searc;
 export const filter = filt;
+export const favorite = fav;
+export const heart = hert;
+export const home = hm;
+export const message = msg;
+export const logout = lg;
+export const notification = nt;
+export const profile = pf;
+export const setting = set;

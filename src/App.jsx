@@ -34,8 +34,8 @@ function App() {
               <spna>Filters</spna>
             </div>
           </div>
-          <div className="w-[20%] h-[80px] bg-white shadow-md rounded-2xl">
-            Bets Seller
+          <div className="w-[20%] h-[80px] shadow-md rounded-2xl bg-[#88C2BB] flex justify-center items-center">
+            <span className="text-white font-semibold">Become a Seller</span>
           </div>
         </div>
         <div className="flex  md:flex-row flex-col justify-between w-full gap-2 p-2  ">

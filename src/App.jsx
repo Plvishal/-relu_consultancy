@@ -48,7 +48,7 @@ function App() {
           <div className="md:w-[60%] relative md:mt-9 mt-2 shadow-2xl rounded-xl bg-white opacity-1">
             <ContentComponents />
           </div>
-          <div className="md:w-[20%] w-full md:h-[572px] p-2  md:sticky  right-0 md:top-32 top-2 shadow-2xl rounded-2xl">
+          <div className="md:w-[20%] w-full md:h-[572px] p-2  md:sticky  right-0 md:top-32 top-2 shadow-2xl rounded-2xl overflow-scroll">
             <Artistic />
           </div>
         </div>

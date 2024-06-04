@@ -1,6 +1,9 @@
 '/vite.svg';
 import './App.css';
 import { filter, search } from '../utils/imageExport';
+import Sidebar from './components/Sidebar';
+import ContentComponents from './components/ContentComponents';
+import Artistic from './components/Artistic';
 
 function App() {
   return (
@@ -40,61 +43,13 @@ function App() {
         </div>
         <div className="flex  md:flex-row flex-col justify-between w-full gap-2 p-2  ">
           <div className="md:w-[20%]  p-2 md:h-[572px] md:sticky  relative left-0 md:top-32 md:mt-0 mt-48  shadow-2xl rounded-2xl bg-white ">
-            sidebar
+            <Sidebar />
           </div>
           <div className="md:w-[60%] relative md:mt-9 mt-2 shadow-2xl rounded-xl bg-white opacity-1">
-            content
-            <p>sfjhfhrefj</p>
-            <p>sfjhfhrefj</p>
-            <p>sfjhfhrefj</p>
-            <p>sfjhfhrefj</p>
-            <p>sfjhfhrefj</p>
-            <p>sfjhfhrefj</p>
-            <p>sfjhfhrefj</p>
-            <p>sfjhfhrefj</p>
-            <p>sfjhfhrefj</p>
-            <p>sfjhfhrefj</p>
-            <p>sfjhfhrefj</p>
-            <p>sfjhfhrefj</p>
-            <p>sfjhfhrefj</p>
-            <p>sfjhfhrefj</p>
-            <p>sfjhfhrefj</p>
-            <p>sfjhfhrefj</p>
-            <p>sfjhfhrefj</p>
-            <p>sfjhfhrefj</p>
-            <p>sfjhfhrefj</p>
-            <p>sfjhfhrefj</p>
-            <p>sfjhfhrefj</p>
-            <p>sfjhfhrefj</p>
-            <p>sfjhfhrefj</p>
-            <p>sfjhfhrefj</p>
-            <p>sfjhfhrefj</p>
-            <p>sfjhfhrefj</p>
-            <p>sfjhfhrefj</p>
-            <p>sfjhfhrefj</p>
-            <p>sfjhfhrefj</p>
-            <p>sfjhfhrefj</p>
-            <p>sfjhfhrefj</p>
-            <p>sfjhfhrefj</p>
-            <p>sfjhfhrefj</p>
-            <p>sfjhfhrefj</p>
-            <p>sfjhfhrefj</p>
-            <p>sfjhfhrefj</p>
-            <p>sfjhfhrefj</p>
-            <p>sfjhfhrefj</p>
-            <p>sfjhfhrefj</p>
-            <p>sfjhfhrefj</p>
-            <p>sfjhfhrefj</p>
-            <p>sfjhfhrefj</p>
-            <p>sfjhfhrefj</p>
-            <p>sfjhfhrefj</p>
-            <p>sfjhfhrefj</p>
-            <p>sfjhfhrefj</p>
-            <p>sfjhfhrefj</p>
-            <p>sfjhfhrefj</p>
+            <ContentComponents />
           </div>
           <div className="md:w-[20%] w-full md:h-[572px] p-2  md:sticky  right-0 md:top-32 top-2 shadow-2xl rounded-2xl">
-            Artitic
+            <Artistic />
           </div>
         </div>
       </div>

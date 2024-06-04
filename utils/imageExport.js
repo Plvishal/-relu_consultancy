@@ -7,6 +7,7 @@ import hertW2 from '../public/icon/heart@2xW.png';
 import cicon2 from '../public/icon/pexels-imad-clicks.png';
 import cover2L from '../public/icon/pexels-tobias-bjørkli.png';
 import come from '../public/icon/comment.png';
+import wl from '../public/icon/wallet.svg';
 import sh from '../public/icon/share.png';
 import hm from '../public/icon/home.png';
 import lg from '../public/icon/logout.png';
@@ -25,6 +26,10 @@ import img8 from '../public/artistic/pexels-humphrey-muleba.png';
 import img9 from '../public/artistic/pexels-pixabay.png';
 import img10 from '../public/artistic/pexels-steve-johnson.png';
 import img1L from '../public/artistic/pexels-humphrey-muleba@2x.png';
+import image39L from '../public/card/Image_39@2x.png';
+import image40L from '../public/card/Image_40@2x.png';
+import image41L from '../public/card/image_41@2x.png';
+import st from '../public/card/star.png';
 
 export const search = searc;
 export const filter = filt;
@@ -53,3 +58,9 @@ export const share = sh;
 export const heartW = hertW;
 export const heart2 = hertW2;
 export const coverIcon2 = cicon2;
+export const wallet = wl;
+
+export const image_39 = image39L;
+export const image_40 = image40L;
+export const image_41 = image41L;
+export const star = st;

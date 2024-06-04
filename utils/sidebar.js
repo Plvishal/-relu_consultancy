@@ -6,6 +6,7 @@ import {
   setting,
   profile,
   favorite,
+  wallet,
 } from './imageExport';
 
 export const sidebar = [
@@ -31,7 +32,7 @@ export const sidebar = [
   },
   {
     titile: 'Wallet',
-    src: notification,
+    src: wallet,
     path: '/wallet',
   },
   {

@@ -22,10 +22,10 @@ function Sidebar() {
                 : undefined
             }
           >
-            <div className=" flex gap-2 ">
-              <img src={dt.src} alt="error" className="w-[16px] h-[17px]" />
+            <div className=" flex gap-2 items-center">
+              <img src={dt.src} alt="error" className="w-[18px] h-[17px]" />
               <span className="text-md font-normal text-gray-500">
-                {dt.titile}{' '}
+                {dt.titile}
               </span>
             </div>
           </NavLink>

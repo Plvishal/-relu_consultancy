@@ -6,8 +6,10 @@ function App() {
     <>
       <div className="flex flex-col  bg-[#F5F5F5]">
         <div className="flex w-full gap-2 px-2 sticky top-1 opacity-1 z-10">
-          <div className="w-[20%] h-[80px] bg-white shadow-md rounded-xl">
-            Logo
+          <div className="w-[20%] h-[80px] bg-white shadow-md rounded-xl flex justify-center items-center">
+            <h1 className="text-[2rem] font-bold font-sans uppercase bg-gradient-to-t from-red-300 via-pink-500 to-blue-400 text-transparent bg-clip-text">
+              Logo
+            </h1>
           </div>
           <div className="w-[60%] h-[80px] bg-white shadow-md rounded-2xl">
             Search

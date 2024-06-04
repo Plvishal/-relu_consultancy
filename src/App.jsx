@@ -1,5 +1,6 @@
 '/vite.svg';
 import './App.css';
+import { filter, search } from '../utils/imageExport';
 
 function App() {
   return (
@@ -11,8 +12,27 @@ function App() {
               Logo
             </h1>
           </div>
-          <div className="w-[60%] h-[80px] bg-white shadow-md rounded-2xl">
-            Search
+          <div className="w-[60%] h-[80px] bg-white shadow-md rounded-2xl flex justify-between items-center px-6">
+            <div className="flex gap-2">
+              <img
+                src={search}
+                alt="error"
+                className="w-[25px] h-[25px] boject-contain"
+              />
+              <input
+                type="text"
+                placeholder="search here.."
+                className="outline-none"
+              />
+            </div>
+            <div className="flex gap-2 font-semibold font-serif items-center justify-center">
+              <img
+                src={filter}
+                alt="error"
+                className="w-[25px] h-[25px] boject-contain"
+              />
+              <spna>Filters</spna>
+            </div>
           </div>
           <div className="w-[20%] h-[80px] bg-white shadow-md rounded-2xl">
             Bets Seller

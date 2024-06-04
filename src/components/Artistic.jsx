@@ -5,7 +5,7 @@ function Artistic() {
   return (
     <>
       <div className="flex justify-around">
-        <Link>Artists</Link>
+        <Link className="font-semibold font-serif">Artists</Link>
         <Link>Photographers</Link>
       </div>
       <div>

@@ -15,14 +15,8 @@ function App() {
       <>
         <div>
           <Routes>
-            <Route
-              path="https://relu-consultancy-navy.vercel.app/"
-              element={<Registration />}
-            ></Route>
-            <Route
-              path="https://relu-consultancy-navy.vercel.app/login"
-              element={<Login />}
-            ></Route>
+            <Route path="/" element={<Registration />}></Route>
+            <Route path="/login" element={<Login />}></Route>
           </Routes>
         </div>
       </>

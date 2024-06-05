@@ -13,7 +13,7 @@ export const sidebar = [
   {
     titile: 'Home',
     src: home,
-    path: '/',
+    path: '/home',
   },
   {
     titile: 'Notifications',

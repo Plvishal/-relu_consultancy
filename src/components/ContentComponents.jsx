@@ -12,7 +12,7 @@ function ContentComponents() {
   return (
     <>
       <Routes>
-        <Route path="/" element={<Home />}></Route>
+        <Route path="/home" element={<Home />}></Route>
         <Route path="/notification" element={<Notification />}></Route>
         <Route path="/shop" element={<Shop />}></Route>
         <Route path="/conversation" element={<Conversation />}></Route>

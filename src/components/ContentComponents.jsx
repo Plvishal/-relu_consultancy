@@ -12,14 +12,38 @@ function ContentComponents() {
   return (
     <>
       <Routes>
-        <Route path="/home" element={<Home />}></Route>
-        <Route path="/notification" element={<Notification />}></Route>
-        <Route path="/shop" element={<Shop />}></Route>
-        <Route path="/conversation" element={<Conversation />}></Route>
-        <Route path="/wallet" element={<Wallet />}></Route>
-        <Route path="/subscriptions" element={<Subscription />}></Route>
-        <Route path="/my-profile" element={<My_Profile />}></Route>
-        <Route path="/settings" element={<Setting />}></Route>
+        <Route
+          path="https://relu-consultancy-navy.vercel.app/home"
+          element={<Home />}
+        ></Route>
+        <Route
+          path="https://relu-consultancy-navy.vercel.app/notification"
+          element={<Notification />}
+        ></Route>
+        <Route
+          path="https://relu-consultancy-navy.vercel.app/shop"
+          element={<Shop />}
+        ></Route>
+        <Route
+          path="https://relu-consultancy-navy.vercel.app/conversation"
+          element={<Conversation />}
+        ></Route>
+        <Route
+          path="https://relu-consultancy-navy.vercel.app/wallet"
+          element={<Wallet />}
+        ></Route>
+        <Route
+          path="https://relu-consultancy-navy.vercel.app/subscriptions"
+          element={<Subscription />}
+        ></Route>
+        <Route
+          path="https://relu-consultancy-navy.vercel.app/my-profile"
+          element={<My_Profile />}
+        ></Route>
+        <Route
+          path="https://relu-consultancy-navy.vercel.app/settings"
+          element={<Setting />}
+        ></Route>
       </Routes>
     </>
   );
